@@ -8,7 +8,6 @@
 Console.WriteLine("Úkol č. 1:\n");
 Task1.FindDuplicities(1000000);
 
-
 // úkol č. 2)
 // Použijte REST API https://swapi.dev/
 //
