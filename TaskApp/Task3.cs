@@ -108,10 +108,10 @@ public static class Task3
     {
         if (infected.Count > 1)
         {
-            Console.WriteLine($"{name} nakazil {infected.Count} členů posádky, než nakazili kapitána:\n");
+            Console.WriteLine($"{name} nakazil dalších {infected.Count} členů posádky, než nakazili kapitána:\n");
             foreach (var person in infected)
             {
-                Console.WriteLine(person.Name);
+                Console.WriteLine($"\t{person.Name}");
             }
         }
         else

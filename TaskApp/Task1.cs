@@ -26,14 +26,14 @@
         int duplicityCount = duplicities.Count();
 
         Console.WriteLine($"Celkem nalezeno: {duplicityCount} duplicitních položek.");
-        Console.WriteLine($"{"Duplicita",-10} {"Počet"}");
+        Console.WriteLine($"\t{"Duplicita",-10} {"Počet"}");
 
         // duplicitních záznamů může být mnoho, zobrazím pouze prvních 10
         if (duplicityCount > 10)
         {
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine($"{duplicities[i].Value,-10} {duplicities[i].Counter}");
+                Console.WriteLine($"\t{duplicities[i].Value,-10} {duplicities[i].Counter}");
             }
             Console.WriteLine($"... a dalších {duplicityCount - 10} položek.");
         }
