@@ -1,5 +1,4 @@
 ﻿using System.Runtime.CompilerServices;
-
 namespace TaskApp;
 
 public static class Task3
@@ -47,7 +46,7 @@ public static class Task3
             Console.WriteLine($"{name} má {subordinates.Count} podřízených:\n");
             foreach (var person in subordinates)
             {
-                Console.WriteLine(person.Name);
+                Console.WriteLine($"\t{person.Name}");
             }
         }
         else
@@ -106,6 +105,7 @@ public static class Task3
 
     public static void PrintInfectedResults(List<Person> infected, string name)
     {
+        Console.WriteLine("\n");
         if (infected.Count > 1)
         {
             Console.WriteLine($"{name} nakazil dalších {infected.Count} členů posádky, než nakazili kapitána:\n");

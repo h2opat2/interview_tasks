@@ -29,7 +29,7 @@ Task2.PrintStarships(starShips);
 
 Console.WriteLine("\nÚkol č. 3:\n");
 // a)
-string name = "Julian Bashir";
+string name = "Worf son of Mog";
 List<Person> subordinates = Task3.FindSubordinate(name); // vrací podřízené zadaného člověka
 Task3.PrintSubordinateResults(subordinates,name);        // výpis podřízených
 

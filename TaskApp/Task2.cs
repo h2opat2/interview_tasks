@@ -63,7 +63,6 @@ public static class Task2
             Console.WriteLine($"\t{starship.name}");
         }
     }
-
 }
 
 class People
